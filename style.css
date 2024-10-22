@@ -1,14 +1,17 @@
-*  {
+* {
     text-decoration: none;
     margin: 0px;
     padding: 0px;
 }
 
 body {
-    background-color: #16bc2f;
+    background-image: url(backgroundcitylights.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     margin: 0px;
     padding: 0px;
-    font-family: 'Open Sans',sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .wrapper {
@@ -26,7 +29,7 @@ body {
 }
 
 .menu {
-    float: right;   
+    float: right;
 }
 
 nav {
@@ -38,8 +41,8 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #b4df07;
-    border-bottom: 5px solid #f87706;
+    background: #ffffff;
+    border-bottom: 1px solid #f87706;
     z-index: 1000;
 }
 
@@ -69,6 +72,7 @@ section {
     margin: auto;
     display: flex;
     margin-bottom: 50px;
+    flex-wrap: wrap;
 }
 
 .Biografi {
@@ -154,15 +158,18 @@ p {
     position: relative;
     display: flex;
     flex-wrap: wrap;
+    gap: 20px;
 }
 
 .gambar-hobi {
-    width: 20%;
+    width: 30%;
     margin: 0 auto;
 }
+
 .gambar-hobi img {
-    width: 80%;
-    border-radius: 30%;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
 }
 
 .gambar-hobi p {
@@ -184,10 +191,11 @@ p {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    gap: 20px;
 }
 
 .footer-section {
-    width: 20%;
+    width: 22%;
     margin: 0 auto;
 }
 
@@ -202,12 +210,13 @@ h3 {
 }
 
 #copyright {
-    background-color: #dedede;
+    background-color: #ffffff;
     text-align: center;
     width: 100%;
     padding: 50px 0px 50px 0px;
 }
 
+/* Responsive Layout */
 @media screen and (max-width: 991.98px) {
     .wrapper {
         width: 90%;
@@ -243,5 +252,35 @@ h3 {
         display: block;
         width: 80%;
         height: auto;
+    }
+
+    .gambar-hobi {
+        width: 45%;
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    h2 {
+        font-size: 30px;
+    }
+
+    .kolom .deskripsi {
+        font-size: 18px;
+    }
+
+    .gambar-hobi img {
+        width: 80%;
+        max-width: 200px;
+    }
+
+    .footer-section {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 20px;
     }
 }
