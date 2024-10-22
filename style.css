@@ -5,10 +5,7 @@
 }
 
 body {
-    background-image: url(backgroundcitylights.png);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-color: #16bc2f;
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -41,7 +38,7 @@ nav {
     position: sticky;
     position: -webkit-sticky;
     top: 0;
-    background: #ffffff;
+    background: #b4df07;
     border-bottom: 1px solid #f87706;
     z-index: 1000;
 }
