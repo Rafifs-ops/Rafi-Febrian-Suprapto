@@ -91,22 +91,23 @@ section {
     color: #ffffff;
 }
 
-.kolom {
+.kolom2 {
     margin-top: 50px;
     margin-bottom: 50px;
     margin-left: 50px;
 }
-.kolom .deskripsi {
+.kolom2 .deskripsi {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
     color: #3F72AF;
 }
 
-.gambar-data-diri img {
+.kolom2 img {
     border: 5px solid aqua;
     border-radius: 10px;
-    float: left;
+    float: right;
+    margin-left: auto;
 }
 
 h2 {
@@ -215,7 +216,7 @@ h3 {
     font-weight: 800;
     font-size: 30px;
     margin-bottom: 20px;
-    color: rgb(255, 0, 0);
+    color: rgb(16, 1, 1);
     width: 100%;
     line-height: 50px;
 }
@@ -237,6 +238,10 @@ h3 {
         display: block;
         width: 100%;
         text-align: center;
+    }
+
+    #Home img {
+        width: 35%;
     }
 
     nav .menu {
@@ -265,6 +270,10 @@ h3 {
         height: auto;
     }
 
+    .kolom2 img {
+        width: 45%;
+    }
+
     .gambar-hobi {
         width: 45%;
     }
@@ -276,8 +285,18 @@ h3 {
 }
 
 @media screen and (max-width: 600px) {
+    #Home img {
+        width: 80%;
+        max-width: 200px;
+    }
+
     h2 {
         font-size: 30px;
+    }
+
+    .kolom2 img {
+        width: 80%;
+        max-width: 200px;
     }
 
     .kolom .deskripsi {
