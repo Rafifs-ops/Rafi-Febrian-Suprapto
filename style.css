@@ -106,8 +106,8 @@ section {
 .kolom2 img {
     border: 5px solid aqua;
     border-radius: 10px;
-    float: right;
     margin-left: auto;
+    gap: 20px;
 }
 
 h2 {
@@ -119,6 +119,7 @@ h2 {
     width: 100%;
     line-height: 50px;
 }
+
 
 a.tbl-biru {
     background: #3282B8;
@@ -271,7 +272,7 @@ h3 {
     }
 
     .kolom2 img {
-        width: 45%;
+        width: 20%;
     }
 
     .gambar-hobi {
@@ -284,9 +285,12 @@ h3 {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 600px) { 
+    nav {
+        position: static;
+    }
     #Home img {
-        width: 80%;
+        width: 35%;
         max-width: 200px;
     }
 
@@ -295,7 +299,7 @@ h3 {
     }
 
     .kolom2 img {
-        width: 80%;
+        width: 45%;
         max-width: 200px;
     }
 
