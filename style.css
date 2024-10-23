@@ -304,6 +304,7 @@ h3 {
 @media screen and (max-width: 600px) { 
     nav {
         position: sticky;
+        height: 100%;
     }
     #Home img {
         width: 35%;
