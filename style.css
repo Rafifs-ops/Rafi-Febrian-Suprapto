@@ -303,7 +303,7 @@ h3 {
 
 @media screen and (max-width: 600px) { 
     nav {
-        position: sticky;
+        position: static;
         height: 100%;
     }
     #Home img {
