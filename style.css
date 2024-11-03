@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #16bc2f;
+    background: linear-gradient(45deg, red, rgb(240, 8, 244), green, blue, purple);
     margin: 0px;
     padding: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -22,7 +22,7 @@ body {
     font-weight: 800;
     float: left;
     font-family: courier;
-    color: #3F72AF;
+    color: #3a05f7;
 }
 
 .menu {
@@ -78,7 +78,6 @@ section {
     border-radius: 40px;
     float: right;
 }
-    
 
 .Biografi {
     color: #ffffff;
@@ -100,11 +99,12 @@ section {
     justify-content: space-between;
     flex-wrap: wrap; 
 }
+
 .kolom2 .deskripsi {
     font-size: 20px;
     font-weight: bold;
     font-family: 'comic sans ms';
-    color: #3F72AF;
+    color: #fb1a06;
 }
 
 .kolom2 ul li {
@@ -123,7 +123,7 @@ h2 {
     font-weight: 800;
     font-size: 45px;
     margin-bottom: 20px;
-    color: #3F72AF;
+    color: #04fe4b;
     width: 100%;
     line-height: 50px;
 }
@@ -202,7 +202,7 @@ p {
     font-style: 800;
     font-size: 25px;
     text-align: center;
-    color: #eff304;
+    color: #4404f3;
 }
 
 #Contact {
